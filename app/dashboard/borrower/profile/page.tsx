@@ -22,11 +22,11 @@ export default function BorrowerProfile() {
   const [isSaving, setIsSaving] = useState(false)
   const [user, setUser] = useState<UserProfile | null>(null)
   const [formData, setFormData] = useState({
-  firstName: "Navnath",
-  lastName: "Kale",
+  firstName: "Parag",
+  lastName: "Sutar",
   email: "verifying ",
   phone: "verifying ",
-  address: "Flat 12B, Sai Sagar Apartments",
+  address: "enter your address here",
   city: "Pune",
   bio: "Tech enthusiast and passionate about building smart rental solutions.",
 })
